@@ -1,73 +1,114 @@
 # 👋 Hi, I'm Sergi Escoruela
 
-I am a **Full-Stack .NET and Python Developer** with strong experience in:
-- Backend (C#, ASP.NET Core, FastAPI).
-- Frontend (Angular 14-18, TypeScript, PrimeNG).
-- Databases (SQL Server).
-- DevOps (Docker, GitHub Actions, Jenkins, Render).
-- AI Projects (local/cloud LLM integrations, GPT-Notion).
+I'm a **Full-Stack Developer** focused on building practical, maintainable and AI-ready products.
 
-My philosophy: **minimal infrastructure, maximum flexibility**.  
-I love building clean, scalable, and maintainable solutions with a focus on user experience and best practices.
+My main stack combines **.NET / C#**, **Python / FastAPI**, **Angular**, **SQL Server**, and modern DevOps practices such as **Docker**, **GitHub Actions** and **CI/CD pipelines**.
+
+I enjoy working close to the product, understanding the real user problem, and turning ideas into clean, scalable applications.
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Current focus
 
-### 🔹 [GPT-Notion Backend](https://github.com/USER/autoCalendar)
-A **FastAPI** service that connects **Notion** with a **local or cloud LLM (OpenAI-compatible)**.  
-It allows users to create, list, update, and summarize tasks in Notion using **natural language**.
-
-**Tech stack:** FastAPI · Uvicorn · Pydantic · httpx · Docker · GitHub Actions · GPT-4All
-
-📌 Main achievements:
-- OAuth 2.0 authentication with Notion.
-- Full task CRUD operations.
-- Smart task summaries via LLM (local or cloud).
-- Automated tests with PyTest + respx.
-- CI/CD with GitHub Actions → Render auto-deploy.
-- Lightweight Docker image (<100MB).
-
-👉 [See detailed documentation](./autoCalendar/README.md)
+- Building full-stack applications with **Angular + FastAPI / .NET**.
+- Integrating **LLMs** into real workflows, not just demos.
+- Designing APIs, automations and internal tools that reduce manual work.
+- Improving code structure, documentation, testing and deployment workflows.
 
 ---
 
-## 🛠️ Tech Stack Overview
+## 🧠 Featured project: GPT-Notion
 
-- **Languages:** C#, Python, TypeScript, SQL  
-- **Backend:** ASP.NET Core, FastAPI  
-- **Frontend:** Angular 14-18, PrimeNG
-- **Databases:** SQL Server 2019  
-- **DevOps:** Docker, Jenkins, GitHub Actions, Render  
-- **AI/ML:** OpenAI API, HuggingFace, GPT-4All  
+### 🔹 [GPT-Notion / AutoCalendar](https://github.com/Sescoruela/autoCalendar)
+
+A full-stack project that connects **Notion** with an **OpenAI-compatible LLM** to manage tasks using natural language.
+
+The project includes:
+
+- **FastAPI backend** with OAuth 2.0 integration for Notion.
+- **Task CRUD** over a Notion database.
+- **Chat endpoint** that interprets user messages and executes actions.
+- **Task summaries** generated through a local or cloud LLM.
+- **Angular frontend** with a conversational interface.
+- **Docker support** for containerized deployment.
+- **GitHub Actions CI/CD** with linting, tests and Render deployment hook.
+
+**Tech stack:** Python · FastAPI · Angular · TypeScript · Notion API · OpenAI-compatible APIs · Docker · GitHub Actions · Render
 
 ---
 
-## 📈 2025 Roadmap
+## 🛠️ Tech stack
 
-- ✅ Consolidate **GPT-Notion Backend** as MVP.  
-- 🔄 Add a minimal Angular frontend for conversational UI.  
-- ⏩ Integrate observability (Prometheus / JSON metrics).  
-- 🛡️ Improve security with lightweight frontend authentication.  
-- ☁️ Explore hybrid deployments (cloud + local LLM).  
+### Backend
+
+- C# / .NET / ASP.NET Core
+- Python / FastAPI
+- REST APIs
+- OAuth 2.0 integrations
+- Pydantic, httpx, OpenAI SDK
+
+### Frontend
+
+- Angular
+- TypeScript
+- RxJS
+- Angular Material / PrimeNG
+- Component-based UI architecture
+
+### Databases
+
+- SQL Server
+- PostgreSQL
+- Firestore / NoSQL basics
+
+### DevOps & Cloud
+
+- Docker
+- GitHub Actions
+- Jenkins
+- Render
+- CI/CD pipelines
+- Basic observability and logging
+
+### AI / LLMs
+
+- OpenAI-compatible APIs
+- Local/cloud LLM integrations
+- Prompt-driven workflows
+- AI agents and automation patterns
 
 ---
 
-## 🧰 Best Practices I Follow
+## 🧩 How I like to work
 
-- ✔️ Clear layered architecture (frontend, backend, AI, database).  
-- ✔️ Unit and E2E testing with mocks.  
-- ✔️ Integrated linting + CI/CD pipelines.  
-- ✔️ Swagger + Markdown documentation.  
-- ✔️ Containerization for dev & production.  
+- Small, focused changes.
+- Clear repository structure.
+- Practical documentation.
+- APIs with Swagger/OpenAPI.
+- Testing with mocks where it adds value.
+- Simple infrastructure before overengineering.
+
+My guiding principle is:
+
+> **Minimal infrastructure, maximum flexibility.**
+
+---
+
+## 📌 What I'm working on next
+
+- Improving my AI + software engineering portfolio.
+- Building more useful agentic workflows.
+- Creating cleaner Angular frontends for AI products.
+- Strengthening CI/CD, Docker and cloud deployment practices.
+- Sharing more practical content about AI and software development.
 
 ---
 
 ## 📬 Contact
 
-- 💼 [LinkedIn – Sergi Escoruela Valladares](https://www.linkedin.com/in/sergi-escoruela-valladares)  
-- 📝 Sharing knowledge about **AI & Software Development** on social media.  
+- 💼 [LinkedIn – Sergi Escoruela Valladares](https://www.linkedin.com/in/sergi-escoruela-valladares)
+- 📝 I share practical ideas about **AI, software development and product building**.
 
 ---
 
-⭐️ *Thanks for visiting my GitHub profile. If you find my projects useful, consider giving them a star ✨*
+⭐️ *Thanks for visiting my GitHub profile. If you find something useful, feel free to explore my repositories.*
